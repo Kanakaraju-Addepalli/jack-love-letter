@@ -36,13 +36,13 @@ const LoveLetter = () => {
       <div className="body"></div>
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`}>
         mah dear kundanapu bomma🖤,<br />
-        never have i been so blessed as to fall in love with someone as wonderful as you...<br />i loveeee youuuu :)<br />
+        I fell in Love right at the first moment I saw you. My love never fade away. I love you for everything you are!❤️<br />i loveeee youuuu :)<br />
         always yours,<br />
-        @niihaaarrrr
+        @Loki
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
   );
 };
-
+// never have i been so blessed as to fall in love with someone as wonderful as you
 export default LoveLetter;
